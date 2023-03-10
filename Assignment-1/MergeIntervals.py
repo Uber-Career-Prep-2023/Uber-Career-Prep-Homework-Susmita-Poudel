@@ -1,5 +1,6 @@
 #Question 8: Given a list of integer pairs representing the low and high end of an interval, inclusive, return a list in which overlapping intervals are merged.
-
+#Hash
+#Time Complexity : O(nlogn).    Space Complexity: O(n)
 def merge_intervals(arr):
 
     arr = sorted(arr, key = lambda x:x[0])
@@ -42,7 +43,7 @@ if __name__ == "__main__":
     main()
 
 
-
+#Time-spent: 34 mins
 
 
 
