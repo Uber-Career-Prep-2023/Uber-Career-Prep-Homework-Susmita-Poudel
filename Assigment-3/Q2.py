@@ -18,8 +18,8 @@ class Heap:
 
     def heapUp(self, index):
         parent_index = math.floor(index/2)
-
-        if index > 0 and self.arr[index] < self.arr[parent_index]:
+        
+        while index > 0 and self.arr[index] < self.arr[parent_index]:
             self.arr[index], self.arr[parent_index] = self.arr[parent_index], self.arr[index]
             index = parent_index
             parent_index = math.floor(index/2)
