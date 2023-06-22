@@ -15,7 +15,7 @@ def adjacencySet(edges):
             adjList[destination] = []
 
     for node in adjList:
-        adjList[node] == sorted(adjList[node])
+        adjList[node] = sorted(adjList[node])
          
 
     return dict(sorted(adjList.items()))
