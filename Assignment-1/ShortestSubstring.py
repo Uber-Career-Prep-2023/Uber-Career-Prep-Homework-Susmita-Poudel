@@ -17,9 +17,9 @@ def shortest_substring(str1, pattern):
     required_count = len(pattern)
     min_len = float('inf')
 
-    
+    print(dict_with_all_pattern)
     while second_pointer < len(str1):
-       
+        print(dict_with_all_pattern)
         if str1[second_pointer] in dict_with_all_pattern:
             dict_with_all_pattern[str1[second_pointer]] -= 1
             if dict_with_all_pattern[str1[second_pointer]] >= 0:
