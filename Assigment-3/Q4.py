@@ -72,7 +72,7 @@ def main():
           [0,0,0,0,0,0],
           [0,0,0,0,0,0]]
     
-    island = numberOfIslands(g5)
+    island = numberOfIslands(g2)
     print("Islands: ", island)
         
 
