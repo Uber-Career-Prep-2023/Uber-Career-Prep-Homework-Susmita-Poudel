@@ -1,6 +1,6 @@
 #Question6: Given an integer n and a sorted array of integers of size n-1 which contains all but one of the integers in the range 1-n, find the missing integer.
 #Binary Search Variation
-#Time complexity: O(n)        Space complexity: O(1)
+#Time complexity: O(logn)        Space complexity: O(1)
 
 def MissingInteger(arr,n):
 
