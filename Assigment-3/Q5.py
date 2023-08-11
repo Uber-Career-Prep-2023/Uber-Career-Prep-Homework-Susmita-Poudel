@@ -27,7 +27,7 @@ def main():
      print(firstKBinaryNumbers(2))
 
 
+
 if __name__ == '__main__':
         main()
-
 #Time-spent:32 minutes
